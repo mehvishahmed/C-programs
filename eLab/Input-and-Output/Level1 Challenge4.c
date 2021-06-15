@@ -8,5 +8,5 @@ int main()
     resnum2= (double)num2;
     printf("%lf\n",resnum1);
     printf("%lf",resnum2);
-	return 0;
+    return 0;
 }
