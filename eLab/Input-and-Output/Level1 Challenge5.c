@@ -6,5 +6,5 @@ int main()
     dividedqnt=alvqntoffood/messcnt;
     remfood=alvqntoffood%messcnt;
     printf("%d %d",dividedqnt,remfood);
-	return 0;
+    return 0;
 }
