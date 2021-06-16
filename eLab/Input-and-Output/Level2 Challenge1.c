@@ -5,5 +5,5 @@ int main()
     scanf("%f %f", &height,&base);
     area=(height*base/2);
     printf("%.3f",area);
-	  return 0;
+    return 0;
 }
