@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main()
 {
-    double num1, num2, res;
+    double num1, num2;
     char op;
     printf("Enter first number: ");
     scanf("%lf", &num1);
@@ -13,20 +13,23 @@ int main()
 
     if (op=='+')
     {
-        res = num1+num2;
+        printf("%lf",num1+num2);
     }
     else if (op=='-')
     {
-        res = num1-num2;
+        printf("%lf",num1-num2);
     }
     else if (op=='*')
     {
-        res = num1*num2;
+        printf("%lf",num1*num2);
     }
     else if (op=='/')
     {
-        res = num1/num2;
+        printf("%lf",num1/num2);
     }
-    printf("Answer: %f", res);
+    else 
+    {
+        printf("INVALID ENTRY");
+    }
     return 0;
 }
