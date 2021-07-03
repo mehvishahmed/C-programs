@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    int firstnum,secondnum;
+    scanf("%d %d\n",&firstnum,&secondnum);
+    printf("%d %d\n",firstnum--,++secondnum);
+    printf("%d %d\n",firstnum++,--secondnum);
+    printf("%d %d\n",firstnum--,++secondnum);
+    printf("%d %d\n",firstnum++,--secondnum);
+    printf("%d %d",firstnum--,++secondnum);
+	return 0;}
