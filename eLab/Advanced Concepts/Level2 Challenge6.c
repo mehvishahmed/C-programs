@@ -3,7 +3,7 @@ void bubble(int a[],int n);
 int main()
 {
     int t;
-    scanf("%d",&t);
+    scanf("%d", &t);
     while(t>0)
     {
         int n,l;
